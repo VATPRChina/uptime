@@ -21,7 +21,7 @@ const workerConfig: WorkerConfig = {
       id: 'uniapi',
       name: 'UniAPI',
       method: 'GET',
-      target: 'https://uniapi.vatprc.net',
+      target: 'https://uniapi.vatprc.net/api/compat/online-status',
       headers: { 'User-Agent': 'Uptimeflare (https://status.vatprc.net)' },
     },
     {
